@@ -7,7 +7,7 @@ The Ultimate Trading Chart is a comprehensive Power BI custom visual designed fo
 
 ![Head and Shoulders Pattern Detection](Images/Pattern_head_and_shoulders.png)
 
-## Installation
+## Installation 
 
 1. Download the `.pbiviz` file from this repository
 2. In Power BI Desktop, click the ellipsis (...) in the Visualizations pane
@@ -38,7 +38,7 @@ Your dataset should include OHLCV (Open, High, Low, Close, Volume) data with tim
 - Commodity prices
 - Any time-series financial data
 
-Data should be sorted by date in ascending order for proper visualization.
+Data should be sorted by date in ascending order for proper visualisation.
 
 ## Interface Overview
 
@@ -46,7 +46,7 @@ The visual is organized into four main areas:
 
 - **Toolbar** (Top): Chart type selector, timeframe dropdown, indicators, strategies, and patterns
 - **Drawing Tools Sidebar** (Left): Line tools, shapes, and annotations
-- **Main Chart Area** (Center): Price visualization with interactive crosshair
+- **Main Chart Area** (Center): Price visualisation with interactive crosshair
 - **Indicator Panels** (Bottom): Technical indicators like RSI, MACD, and Volume
 
 ## Chart Types
@@ -69,7 +69,7 @@ The visual is organized into four main areas:
 - **Line**: Simple closing price line
 - **Area**: Filled area under the closing price line
 - **Baseline**: Area chart measured from a baseline
-- **HLC Area**: High-Low-Close area visualization
+- **HLC Area**: High-Low-Close area visualisation
 - **High-Low**: Shows only the high-low price range
 
 **Advanced Charts:**
@@ -419,7 +419,7 @@ For optimal performance with live trading data, especially when using the includ
 
 - Power BI Desktop (latest version recommended)
 - OHLCV financial data with datetime column
-- Minimum visual size: 600px width x 400px height
+- Minimum visual size: 1280px width x 720px height
 - Maximum data points: 10,000 rows (for optimal performance)
 
 ## Example Data Format
@@ -437,11 +437,7 @@ For issues, questions, or feature requests, please visit the repository's Issues
 
 ## Example Files
 
-### Sample Report
-
-[**Download: The Ultimate Trading Chart.pbix**](The%20Ultimate%20Trading%20Chart.pbix)
-
-An example Power BI report demonstrating:
+An example Power BI report (`.pbix`) is included in this repository demonstrating:
 - Proper data structure and field mapping
 - Various chart types and their use cases
 - Technical indicator configurations
@@ -450,11 +446,3 @@ An example Power BI report demonstrating:
 - Timeframe aggregation in action
 
 Download the example file to explore all features and use it as a template for your own reports.
-
-### CryptoCompare Data Query
-
-[**Download: btc_1minute_7days.pq**](btc_1minute_7days.pq)
-
-A Power Query (M) script to fetch Bitcoin 1-minute OHLCV data from CryptoCompare API for the last 7 days. This query can be imported into Power BI Desktop to get started quickly with live cryptocurrency data.
-
-**Note:** For production use, consider storing data in a SQL database with Dual mode and automatic page refresh as described in the [Real-Time Trading Data Setup](#real-time-trading-data-setup) section.
