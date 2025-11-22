@@ -10,6 +10,19 @@ A collection of Power BI resources including custom visuals, tips, templates, an
 
 Custom-built Power BI visuals to enhance your reporting capabilities.
 
+#### Calendar Heatmap
+
+A GitHub-style calendar visualization that displays time-series data in a grid format with color intensity representing values.
+
+- Daily activity tracking with color-coded cells
+- Year selector with animated data reveal
+- Customizable color gradients or stepped scales
+- Flexible display options (3-24 months, start month selection)
+- Interactive tooltips with date and value information
+- Full customization of colors, fonts, and layout
+
+[User Guide](Custom%20Visuals/calendar-heatmap/USER_GUIDE.md) | [Download](Custom%20Visuals/calendar-heatmap/PBINathanCalendarHeatmap2024A1B2C3D4E5F7.1.0.0.0.pbiviz) | [Sample Report](Custom%20Visuals/calendar-heatmap/Calendar-Heatmap.pbix)
+
 #### Date Range Slicer
 
 An intuitive date range selector with preset options and interactive calendar selection.
