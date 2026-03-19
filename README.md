@@ -52,6 +52,31 @@ A comprehensive financial charting visual for technical analysis and trading.
 
 [User Guide](Custom%20Visuals/the-ultimate-trading-chart/USER-GUIDE.md) | [Download](Custom%20Visuals/the-ultimate-trading-chart/PBINathanUltimateTradingChart2024WXYZ.1.0.0.0.pbiviz) | [Sample Report](Custom%20Visuals/the-ultimate-trading-chart/The%20Ultimate%20Trading%20Chart.pbix) | [CryptoCompare Query](Custom%20Visuals/the-ultimate-trading-chart/btc_1minute_7days.pq)
 
+#### Database Schema Visualiser
+
+A custom visual that generates interactive Mermaid entity-relationship diagrams directly from your SQL Server metadata.
+
+- Automatic ER diagram generation from system views
+- Table structures with column names, data types, and lengths
+- Primary key and identity column identification
+- Foreign key relationship mapping with data flow direction
+- Stays up to date via Scheduled Refresh or Direct Query
+- No manual diagram maintenance required
+
+[User Guide](Custom%20Visuals/Database-schema-visuliser/USER_GUIDE.md) | [Download](Custom%20Visuals/Database-schema-visuliser/dbSchemaVizA1B2C3D4E5F6G7H8.1.0.0.0.pbiviz)
+
+#### Snake Game
+
+The classic Snake arcade game as a Power BI custom visual — a fun easter egg to embed in your reports.
+
+- Classic Snake gameplay with arrow key and WASD controls
+- Score tracking as you collect food and grow longer
+- No data fields required — just add it to your report and play
+- Lightweight with zero impact on report refresh performance
+- Great for team engagement, presentations, or a quick break
+
+[User Guide](Custom%20Visuals/snake-game/USER_GUIDE.md) | [Download](Custom%20Visuals/snake-game/snakegame67E5AB03A75446EDB26ED4A06034576C.1.0.0.0.pbiviz)
+
 ## Installation Instructions
 
 ### Custom Visuals
